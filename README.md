@@ -1,9 +1,12 @@
 # NYC-taxi-trip-duration-predictions
 
 This is my very first predictions, made for a Kaggle competition that you can find [here](https://www.kaggle.com/c/nyc-taxi-trip-duration).  
-I chose to use a **RandomForestRegressor** and made it without having a look at public kernels.
+I chose to use a **RandomForestRegressor** and made it without having a look at public kernels.  
+You can find my work and score [here](https://www.kaggle.com/quentinmonmousseau/predictions-using-randomforestregressor) or simply have a look at the [notebook](https://github.com/qmonmous/NYC-taxi-trip-duration-predictions/blob/master/predictions.ipynb) I put in this repository.
 
 ---
+
+### About the competition
 
 The competition dataset is based on the 2016 NYC Yellow Cab trip record data made available in Big Query on Google Cloud Platform. The data was originally published by the NYC Taxi and Limousine Commission (TLC). The data was sampled and cleaned for the purposes of this playground competition. Based on individual trip attributes, participants should **predict the duration of each trip in the test set.**
 
