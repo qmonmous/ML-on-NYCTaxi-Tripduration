@@ -1,7 +1,7 @@
 # NYC-taxi-trip-duration-predictions
 
-This is my very first predictions, made for a Kaggle competition that you can find [here](https://www.kaggle.com/c/nyc-taxi-trip-duration).  
-I chose to use a **RandomForestRegressor** and made it without having a look at public kernels.  
+This is my very first predictions, made for a Kaggle competition that you can find [here](https://www.kaggle.com/c/nyc-taxi-trip-duration). 
+In this notebook, I go through the complete Machine Learning workflow. I tried to optimize both RandomForest and LightGBM models, with a respective error of RMSLE 0,39 and 0,37.
 You can find my work and score [here](https://www.kaggle.com/quentinmonmousseau/predictions-using-randomforestregressor) or simply have a look at the [notebook](https://github.com/qmonmous/NYC-taxi-trip-duration-predictions/blob/master/predictions.ipynb) I put in this repository.
 
 ---
@@ -12,23 +12,6 @@ The competition dataset is based on the 2016 NYC Yellow Cab trip record data mad
 
 ### File descriptions
 
-**train.csv** - the training set (contains 1458644 trip records)  
-**test.csv** - the testing set (contains 625134 trip records)  
-**sample_submission.csv** - a sample submission file in the correct format  
-
-### Data fields
-
-**id** - a unique identifier for each trip  
-**vendor_id** - a code indicating the provider associated with the trip record  
-**pickup_datetime** - date and time when the meter was engaged  
-**dropoff_datetime** - date and time when the meter was disengaged  
-**passenger_count** - the number of passengers in the vehicle (driver entered value)  
-**pickup_longitude** - the longitude where the meter was engaged  
-**pickup_latitude** - the latitude where the meter was engaged  
-**dropoff_longitude** - the longitude where the meter was disengaged  
-**dropoff_latitude** - the latitude where the meter was disengaged  
-**store_and_fwd_flag** - This flag indicates whether the trip record was held in vehicle memory before sending to the vendor because the vehicle did not have a connection to the server  
-Y=store and forward; N=not a store and forward trip  
-**trip_duration** - duration of the trip in seconds  
-
-*Disclaimer: The decision was made to not remove dropoff coordinates from the dataset order to provide an expanded set of variables to use in Kernels.*
+**train.csv** - the training set (contains 1458644 trip records)
+**test.csv** - the testing set (contains 625134 trip records)
+**submission.csv** - the submission file in the required format
